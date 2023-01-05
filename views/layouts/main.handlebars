@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
     <title>{{title}}</title>
 </head>
+
 <body>
- {{> header}}
-    {{{ body }}}
-{{> footer}}
+    {{> header}}
+    <div class="conatiner mx-auto bg-red-800">
+        {{{ body }}}
+    </div>
+    {{> footer}}
 </body>
+
 </html>

@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+.header {
+  background-color: tomato;
+  color: white;
+  padding: 2rem;
+}
+
+.footer{
+  background-color: tomato;
+  color: white;
+  padding: 2rem;
+  position: relative;
+}

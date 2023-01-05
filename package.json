@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "npm run test",
+    "watch:css" : "npx tailwindcss -i ./assets/css/app.css -o ./assets/css/main.css --watch",
     "start": "nodemon app.js"
   },
   "repository": {
@@ -18,10 +19,16 @@
   },
   "homepage": "https://github.com/mahmoud-alawad/nodejs_mobile#readme",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
+    "hbs": "^4.2.0",
     "nodemon": "^2.0.20"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    
+  },
+  "tailwind:css": "postcss assets/css/app.css -o assets/css/main.css"
 }
